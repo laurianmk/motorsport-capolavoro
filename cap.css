@@ -1,0 +1,119 @@
+body.home{
+    background-image: url('sfondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+ body.motogp{
+    background-image: url('motosfondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } 
+ 
+ 
+  body.f1{
+    background-image: url('sfondof12025.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } 
+ 
+mark.moto {
+  background-color: #a9a9a9; 
+  color: 	#000000;               
+  
+  border-radius: 6px; 
+  
+  padding: 2px 8px;
+  cursor:pointer;
+}
+
+div.testo-altosinistra {
+  position: fixed;   
+  margin-left: 90px;     
+  margin-top: 100px;  
+transition: transform 0.3s ease;
+}
+
+div.testo-altosinistra:hover {
+  transform: scale(1.2);
+}
+
+div.testo-bassodestra:hover {
+  transform: scale(1.2);
+}
+
+
+
+div.testo-bassodestra {
+  position: fixed;   
+  bottom: 100px;     
+  right: 90px;      
+  transition: transform 0.3s;
+}
+
+mark.f1{
+	background-color: #ffa500; 
+  color: 		#000000;               
+  
+  border-radius: 6px; 
+  
+  padding: 2px 8px;
+  cursor:pointer;
+}
+
+h1{color:white}
+
+li{display:inline;
+	font-size:19px;
+
+	}
+	
+	
+a{
+	color:white;
+	text-decoration:none;
+	
+	
+	
+}
+	
+	
+ul.moto1{
+	
+
+	
+	text-decoration:none;
+	
+	
+}
+
+div.anno {
+  display: flex;
+  align-items: center;      
+  justify-content: center;   
+  gap: 20px;                
+}
+
+div.intestazione {
+  display: flex;
+  align-items: center;      
+  justify-content: center;   
+  gap: 20px;                
+}
+
+div.anno h2 {
+  color:white;              
+}
+
+div.anno a {
+  text-decoration: none;   
+
+  color: #FF812D;  
+  cursor: pointer;
+}
+
+
+
+mark{background-color:orange;}
