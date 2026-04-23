@@ -5,7 +5,7 @@ body.home{
     background-size: cover;
   }
  body.motogp{
-    background-image: url('motosfondo.jpg');
+    background-image: url('sfondomotogp2025.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -116,4 +116,5 @@ div.anno a {
 
 
 
-mark{background-color:orange;}
+mark{background-color:white;
+color:black;}
